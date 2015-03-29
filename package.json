@@ -1,0 +1,32 @@
+{
+  "name": "structured-autocomplete",
+  "version": "0.0.0",
+  "description": "Autocomplete for expression trees",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify example/exanple.js > example/bundle.js",
+    "watch": "watchify example/example.js -o example/bundle.js -dv",
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nichoth/structured-autocomplete.git"
+  },
+  "keywords": [
+    "typeahead",
+    "autocomplete",
+    "search"
+  ],
+  "author": "Nick Thomas <nichoth@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nichoth/structured-autocomplete/issues"
+  },
+  "homepage": "https://github.com/nichoth/structured-autocomplete",
+  "dependencies": {
+    "autocomplete-element": "https://github.com/nichoth/autocomplete-element/tarball/mine"
+  },
+  "devDependencies": {
+    "tape": "^3.5.0"
+  }
+}
